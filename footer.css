@@ -1,0 +1,31 @@
+.footer1{
+    background-color: lightblue;
+    width:100%;
+   
+}
+#div1{
+margin-top:150px;
+clear:both;
+transform: translate(0,100px)
+}
+#div2{
+    clear:both;
+
+    float:right;
+    margin-top: -180px;
+}
+input[type=teext]{
+    padding:20px;
+    margin:10px;
+    width:80%;
+    margin-left:70px;
+}
+button{
+    padding:20px;
+    border-radius: 10px;
+    color:black;
+    margin-left:70px;   
+}
+textarea{
+    margin-left:70px;
+}
