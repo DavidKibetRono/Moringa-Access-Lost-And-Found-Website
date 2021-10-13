@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: italic;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    background-color: #308897;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;justify-content: space-around;
+}
+.about-text h1{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+}
+.about-text h2{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+span{
+    color: yellow;
+}
+.about-text p{
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
