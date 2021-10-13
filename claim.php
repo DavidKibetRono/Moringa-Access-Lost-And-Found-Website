@@ -19,7 +19,6 @@
 
 <input type="tel"  name="mynumber" placeholder="Telephone" required><br>
 
-<input type="text"  name="name" placeholder="Your  name" required><br>
 
 <textarea type="" name="description" placeholder="Describe your item" required></textarea><br>
 
