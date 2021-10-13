@@ -8,3 +8,156 @@
     border-bottom-right-radius:20px;
     /* transform: translate(0,100px); */
 }
+.about{
+    transform: translate(0,100px);
+}
+.navigation ul{
+    display:flex;
+    text-transform: uppercase;
+    align-items:center;
+justify-content:center;
+}
+h1{
+    text-align: center;
+}
+.navigation ul img{
+    width:180px;
+    height:180px;
+    margin-top:0px;
+    margin-right:180px;
+    border-radius: 100px;
+    border:2px solid green;    
+    box-shadow: 5px 5px 5px green;
+}
+
+.navigation ul li{
+    list-style-type:none;
+    margin-top: 70px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    padding: 20px;
+}
+.navigation ul li a:hover{
+    background-color: #FAA916;
+    color:yellow;
+    padding: 10px 10px;
+}
+.navigation2{
+    background-color: #ecf4fb;
+    height: 500px;
+
+}
+.about-text{
+    height: 500px;
+    transform: translate(0,100px);
+}
+#column2{
+    transform: translate(-180px);
+
+}
+.footer{
+    background-color:grey;
+    width:100%;
+    margin-bottom:0px;
+    margin-top:10px;
+    height:300px;
+}
+.footer h3{
+    color:#FAA916;
+    font-size:20px;
+    margin-left:40px;
+}
+.footer #column1{
+    float:left;
+    margin-left:80px;
+    line-height:30px;
+}
+.footer #column2{
+    padding-top:2px;
+    margin-left:800px;
+}
+.footer #column2 span{
+   color:blue;
+}
+.footer #column2 li{
+    list-style-type: none;
+    padding:10px
+}
+ .footer #column2 li a{
+    text-decoration:none;
+    font-size:20px;
+    color:#ffffff;
+}
+.about{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.footer #column3{
+    position: relative;
+    top:-300px;
+    float: right;
+    right:20px;
+}
+input[type=myname]{
+    height:50px;
+    padding-left: 10px;
+}
+textarea{
+    padding-left:10px;
+}
+#column3 button{
+    padding:10px;
+    width:80px;
+    margin-left:25px;
+    border-radius: 20px;
+    padding-left:10px;
+    border:none;
+    background-color: green;
+    color:#ffffff;    
+}
+.footer #column4{
+    margin-left:20px;
+}
+.footer #column4 p{
+    font-size:25px;
+    color:#ffffff;
+    text-shadow: 2px 2px 3px green;
+}
+input[type=mail]{
+    padding:10px;
+    width:280px;
+    padding-left: 10px;
+}
+.footer #column4{
+    margin-top: -130px; 
+}
+.footer #column4 button{
+    background-color: green;
+    color:#ffffff;
+    border:none;
+    padding:13px;
+    margin-left:-5px;
+    width:120px
+}
+.footer #column5{
+    display:inline-block;
+    position: relative;
+    top:-120px;
+    margin: left 2000px;
+}
+.footer #column5 i{
+    font-size: 30px;
+    padding-left:30px;
+    padding-right:10px;
+    color:gold;
+}
+#column5, h3{
+    margin-left: 845px;
+    position: inherit;
+    
+    
+
+    
+}
+
