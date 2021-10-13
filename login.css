@@ -1,0 +1,36 @@
+body{
+    background-color: lightblue;
+  }
+  form{
+      margin-top:20px;
+      text-align: center;
+   
+      width:50%;
+      margin-left:auto;
+      margin-right:auto;
+      border-top-left-radius:50px;
+      border-top-right-radius:50px;
+
+  }
+  input{
+      font-size:18px;
+      border-top-left-radius:10px;
+      border-top-right-radius:10px;
+  }
+  input[type=text],[type=email]{
+      padding:20px;
+      margin:10px;
+  }
+  input[type=password]{
+      padding:20px;
+      margin:10px;
+  }
+  
+  input[type=submit]{
+  border-radius:20px;
+  font-size: 20px;
+  border:none;
+  padding:20px;
+  background-color: green;
+  color:#ffffff;
+  }
