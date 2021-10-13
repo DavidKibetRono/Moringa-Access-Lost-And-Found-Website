@@ -1,0 +1,244 @@
+body{
+    background-color:lightblue;
+  
+}
+.navigation{
+    height: 220px;
+    background-color: #ecf4fb;
+    width:98%;
+    top:0px;
+    margin-left:10px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.navigation ul{
+    display:flex;
+    text-transform: uppercase;
+    align-items:center;
+justify-content:center;
+}
+.navigation ul img{
+    width:180px;
+    height:180px;
+    margin-top:0px;
+    margin-right:180px;
+    border-radius: 100px;
+    border:2px solid green;    
+    box-shadow: 5px 5px 5px green;
+}
+.navigation ul li{
+    list-style-type:none;
+    margin-top: 70px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    padding: 50px;
+}
+.navigation ul li a:hover{
+    background-color: #FAA916;
+    color:yellow;
+    padding: 10px 10px;
+}
+.content{
+    background-color:#ecf4fb;
+    margin-top:-10px;
+    width:82%;
+    margin-left:150px;
+    height:1500px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.content h1{
+    text-align: center;
+    font-size:40px;
+    text-shadow: 2px 2px 5px #FAA916;
+}
+.content hr{
+    width:50%;
+    border:1px solid #FAA916;
+}
+.content h2{
+    margin-left:150px;
+    font-size:30px;
+    font-weight: normal;
+}
+input{
+    font-size:15px;
+}
+input[type=text], [type=email],[type=number]{
+    padding:20px;
+    margin:10px;
+    width:40%;
+    margin-left:70px;
+}
+input[type=file]{
+    margin-left:680px;
+    height:350px;
+}
+button{
+    padding:20px;
+    border-radius: 10px;
+    color:#FAA916;
+    margin-left:70px;   
+}
+
+#about-us{
+    text-align: justify;
+    width:92%;
+    margin-left:50px;
+    line-height:40px; 
+}
+#about-us h2{
+    margin-left:150px;
+    font-size:30px;
+    font-weight: normal;
+}
+
+.footer{
+    background-color:grey;
+    width:100%;
+    margin-bottom:0px;
+    margin-top:10px;
+    height:300px;
+}
+.footer h3{
+    color:#FAA916;
+    font-size:20px;
+    margin-left:40px;
+}
+.footer #column1{
+    float:left;
+    margin-left:80px;
+    line-height:30px;
+}
+.footer #column2{
+    padding-top:2px;
+    margin-left:800px;
+}
+.footer #column2 span{
+   color:blue;
+}
+.footer #column2 li{
+    list-style-type: none;
+    padding:10px
+}
+ .footer #column2 li a{
+    text-decoration:none;
+    font-size:20px;
+    color:#ffffff;
+}
+.footer #column3{
+    position: relative;
+    top:-300px;
+    float: right;
+    right:20px;
+}
+input[type=myname]{
+    height:50px;
+    padding-left: 10px;
+}
+textarea{
+    padding-left:10px;
+}
+#column3 button{
+    padding:10px;
+    width:80px;
+    margin-left:25px;
+    border-radius: 20px;
+    padding-left:10px;
+    border:none;
+    background-color: green;
+    color:#ffffff;    
+}
+.footer #column4{
+    margin-left:20px;
+}
+.footer #column4 p{
+    font-size:25px;
+    color:#ffffff;
+    text-shadow: 2px 2px 3px green;
+}
+input[type=mail]{
+    padding:10px;
+    width:280px;
+    padding-left: 10px;
+}
+.footer #column4{
+    margin-top: -130px; 
+}
+.footer #column4 button{
+    background-color: green;
+    color:#ffffff;
+    border:none;
+    padding:13px;
+    margin-left:-5px;
+    width:120px
+}
+.footer #column5{
+    display:inline-block;
+    position: relative;
+    top:-120px;
+    margin-left:1200px;
+}
+.footer #column5 i{
+    font-size: 30px;
+    padding-left:30px;
+    padding-right:10px;
+    color:gold;
+}
+
+/*FetchLost*/
+
+.list {
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:50px;
+    margin-top:-250px;
+    height:auto;
+}
+#kkk{
+    margin-left:30px;
+
+}
+#kkk:hover{
+    transform: scale(1.2); 
+
+
+}
+#kkk:hover > .btn{
+    display:block;
+    position: absolute;  
+    background-color: #555;
+    color: white;
+    font-size: 20px;
+    padding: 5px 3px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left:50px;
+    margin-top:-80px;
+    transition: 0.3s;
+
+}
+
+.btn {
+    display: none;
+
+}
+
+.btn:hover{
+    background-color: #3e8e41;
+    color: white;
+}
+.btn a{
+    color:#FAA916;
+    text-decoration:none;
+}
+.btn a:hover{
+
+    background-color: #3e8e41;
+    color: white;
+    text-decoration:none;
+}
+
+/*end fetchlost*/
