@@ -22,7 +22,7 @@
 
         <li><a href=""><i class='fa fa-address-card'></i> About Us</a></li>
         <li><a href=""><i class='fa fa-phone'></i> Contact Us</a></li>
-        <li><a href="index.php"><i class='fa fa-users'></i> Register</a></li>
+        <li><a href="index.html"><i class='fa fa-user'></i> Register</a></li>
     </ul>
    </div> 
    <!--/navigation-->
