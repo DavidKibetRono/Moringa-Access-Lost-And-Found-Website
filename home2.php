@@ -94,7 +94,7 @@ Lost and Found maintains lost and abandoned property as per the following retent
 Unclaimed cash may be returned to the finder after the expiration of the three month period, unless the property has been found by a University employee in the course of his/her employment.</p>
 
 <h3>To Claim Property</h3>
-<p>To claim property, contact the main Lost and Found office. To ensure property is returned to the rightful owner, Lost and Found requires the claimant to provide a valid picture identification and to sign-off on the property release log.</p>
+<p >To claim property, contact the main Lost and Found office. To ensure property is returned to the rightful owner, Lost and Found requires the claimant to provide a valid picture identification and to sign-off on the property release log.</p>
            
 
 <h4>To Turn in Lost and/or Abandoned Property</h4>
