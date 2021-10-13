@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="insertimages.css">
+    <link rel="stylesheet" href="css/insertimages.css">
 </head>
 <body>
    
@@ -29,7 +29,7 @@
 
 <input type="file" name="uploadfile" value=""><br>
 <input type="submit" name="submit" value="Submit">
-<button type="button" name="button"><a href="home.php">Home</a></button>
+<button type="button" name="button"><a href="home2.php">Home</a></button>
 </form>
 
 </body>

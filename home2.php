@@ -1,5 +1,4 @@
 <?php  
-
 include 'connect.php';
 ?>
 
@@ -12,7 +11,7 @@ include 'connect.php';
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Lost and Found</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body >
        <!--navigation-->
@@ -21,10 +20,10 @@ include 'connect.php';
     <ul>
       <a href=''> <img  src="logo.png"></a> 
       
-        <li><a href=""><i class='fa fa-home'></i> Home</a></li>
+        <li><a href="home2.php"><i class='fa fa-home'></i> Home</a></li>
         <li><a href="insertImages.php"><i class='fa fa-sticky-note-o'></i> Post Found Item</a></li>
-        <li><a href=""><i class='fa fa-address-card'></i> About Us</a></li>
-        <li><a href=""><i class='fa fa-phone'></i> Contact Us</a></li>
+        <li><a href="about.html"><i class='fa fa-address-card'></i> About Us</a></li>
+        <li><a href="contact.html"><i class='fa fa-phone'></i> Contact Us</a></li>
         <li><a href="#how"><i class='fa fa-question'></i> How it works</a></li>
         <li><a href="logout.php"><i class='fa fa-sign-out'></i> Logout</a></li>
     </ul>
@@ -118,8 +117,8 @@ Unclaimed cash may be returned to the finder after the expiration of the three m
   <div id="column2">
  <i><h3>Quick <span>links</span></h3></i>
 <ul>
-    <li><a href=""> Home</a></li>
-    <li><a href="">About us</a></li>
+    <li><a href="home2.php"> Home</a></li>
+    <li><a href="about.html">About us</a></li>
     <li><a href=""> Location</a></li>
     <li><a href="">Help</a></li>
     <li><a href="">Events</a></li>
