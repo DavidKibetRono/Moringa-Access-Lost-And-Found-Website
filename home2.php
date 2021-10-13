@@ -12,7 +12,7 @@ include 'connect.php';
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Lost and Found</title>
-    <link rel="stylesheet" href="home2.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 <body >
        <!--navigation-->
@@ -112,7 +112,7 @@ Unclaimed cash may be returned to the finder after the expiration of the three m
   <div id="column1">
       <h3>Contact -us </h3>
 <p><i class="fa fa-phone"></i> +254 728234794</p>
-<p><i class="fa fa-address-card"></i> kibetdavidro@gmail.com</p>
+<p><i class="fa fa-address-card"></i> access@moringaschool.com</p>
   </div>
 
   <div id="column2">
