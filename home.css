@@ -1,7 +1,7 @@
 body{
     background-color:lightblue;
-  
 }
+
 .navigation{
     height: 220px;
     background-color: #ecf4fb;
@@ -44,7 +44,7 @@ justify-content:center;
     margin-top:-10px;
     width:82%;
     margin-left:150px;
-    height:1500px;
+    height:auto;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
@@ -61,6 +61,10 @@ justify-content:center;
     margin-left:150px;
     font-size:30px;
     font-weight: normal;
+}
+.works #how p,h3,h4{
+    line-height: 20px;
+   margin-left:20px;
 }
 input{
     font-size:15px;
@@ -172,7 +176,7 @@ input[type=mail]{
     border:none;
     padding:13px;
     margin-left:-5px;
-    width:120px
+    width:120px;
 }
 .footer #column5{
     display:inline-block;
