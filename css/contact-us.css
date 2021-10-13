@@ -1,0 +1,160 @@
+body{
+    background-color: lightblue;
+  }
+  #top form{
+      text-align: center;
+      background-repeat: no-repeat;
+      background-size:200px 200px ;
+      height:auto;      
+      width:70%;
+      margin-top:20px;
+      margin-right:auto;
+      margin-left: 200px;
+      border-top-left-radius:50px;
+      border-top-right-radius:50px;
+  }
+  input{
+      font-size:18px;     
+  }
+
+  input[type=password],[type=tel],[type=text],[type=email]{
+    padding:20px;
+    margin:10px;
+}   
+  input[type=submit]{
+  border-radius:20px;
+  font-size: 20px;
+  border:none;
+  padding:20px;
+  background-color: green;
+  color:#ffffff;
+  }
+
+.navigation{
+    height: 220px;
+    background-color: #ecf4fb;
+    width:98%;
+    top:0px;
+    margin-left:10px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.navigation ul{
+    display:flex;
+    text-transform: uppercase;
+    align-items:center;
+justify-content:center;
+}
+.navigation ul img{
+    width:180px;
+    height:180px;
+    margin-top:0px;
+    margin-right:180px;
+    border-radius: 100px;
+    border:2px solid green;    
+    box-shadow: 5px 5px 5px green;
+}
+.navigation ul li{
+    list-style-type:none;
+    margin-top: 70px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+.navigation ul li a:hover{
+    background-color: #FAA916;
+}
+.footer{
+  background-color:grey;
+  width:100%;
+  margin-bottom:0px;
+  margin-top:10px;
+  height:300px;
+}
+.footer h3{
+  color:#FAA916;
+  font-size:20px;
+  margin-left:40px;
+}
+.footer #column1{
+  float:left;
+  margin-left:80px;
+  line-height:30px;
+}
+.footer #column2{
+  padding-top:2px;
+  margin-left:600px;
+}
+.footer #column2 span{
+ color:blue;
+}
+.footer #column2 li{
+  list-style-type: none;
+  padding:10px
+}
+.footer #column2 li a{
+  text-decoration:none;
+  font-size:20px;
+  color:#ffffff;
+}
+.footer #column3{
+  position: relative;
+  top:-300px;
+  float: right;
+  right:20px;
+}
+#bottom input[type=myname]{
+  height:50px;
+  padding-left: 10px;
+}
+#bottom textarea{
+  padding-left:10px;
+}
+#bottom #column3 button{
+  padding:10px;
+  width:80px;
+  margin-left:25px;
+  border-radius: 20px;
+  padding: left 10px;
+  border:none;
+  background-color: green;
+  color:#ffffff;    
+}
+.footer #column4{
+  margin-left:20px;
+}
+.footer #column4 p{
+  font-size:25px;
+  color:#ffffff;
+  text-shadow: 2px 2px 3px green;
+}
+input[type=mail]{
+  padding:10px;
+  width:280px;
+  padding-left: 10px;
+}
+.footer #column4{
+  margin-top: -130px; 
+}
+.footer #column4 button{
+  background-color: green;
+  color:#ffffff;
+  border:none;
+  padding:13px;
+  margin-left:-5px;
+  width:120px;
+  /* transform:translate(0,0) */
+}
+.footer #column5{
+  display:inline-block;
+  position: relative;
+  top:-120px;
+  margin-left:700px;
+  margin-top:-100px;
+  font-size: 30px;
+  padding-left:30px;
+  padding-right:10px;
+  color:gold;
+  transform: translate(80px,-30px);
+}
