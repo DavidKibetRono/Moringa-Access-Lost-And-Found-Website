@@ -1,7 +1,7 @@
 body{
     background-color:lightblue;
+  
 }
-
 .navigation{
     height: 220px;
     background-color: #ecf4fb;
@@ -44,7 +44,7 @@ justify-content:center;
     margin-top:-10px;
     width:82%;
     margin-left:150px;
-    height:auto;
+    height:1300px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
@@ -64,7 +64,8 @@ justify-content:center;
 }
 .works #how p,h3,h4{
     line-height: 20px;
-   margin-left:20px;
+   margin-left:15px;
+   font-family:  sans-serif;
 }
 input{
     font-size:15px;
@@ -97,13 +98,15 @@ button{
     font-size:30px;
     font-weight: normal;
 }
-
+.works #how p{
+    font-size:20px;
+}
 .footer{
     background-color:grey;
     width:100%;
-    margin-bottom:0px;
-    margin-top:10px;
-    height:300px;
+    margin-top:80px;
+    height:450px;
+
 }
 .footer h3{
     color:#FAA916;
@@ -124,7 +127,7 @@ button{
 }
 .footer #column2 li{
     list-style-type: none;
-    padding:10px
+    padding:10px;
 }
  .footer #column2 li a{
     text-decoration:none;
@@ -176,7 +179,7 @@ input[type=mail]{
     border:none;
     padding:13px;
     margin-left:-5px;
-    width:120px;
+    width:120px
 }
 .footer #column5{
     display:inline-block;
